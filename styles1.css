@@ -7,7 +7,7 @@ html,body {
 }
 
 :root {
-    --bg--primary: #00a4db;
+    --bg--primary: #ffffff;
     --bg--secondary: #bebfde;
     --txt--primary: #f7f7f7;
     --txt--secondary: #222222;
@@ -49,7 +49,7 @@ html,body {
 
 .wrapper {
 
-    margin-top: 22px;
+    margin-top: 1.9px;
     justify-content: center;
     width: 100%;
     height: auto;
@@ -74,20 +74,34 @@ html,body {
 
 .icons {
 
-    margin-top: 10px;
-    margin-bottom: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     font-size: 24px;
     color: var(--Icon--bg--primary);
 
 }
 
-.btn, .a1 {
+.btn:hover {
 
+    background-color: var(--bg--primary);
     cursor: pointer;
-    background-color: #e9eaf1;
-    padding: 6px;
-    color: #12006d;
+    color: #2b00ff;
     text-decoration: none;
     border: none;
+
+}
+
+.btn {
+
+    border: none;
+    text-decoration: none;
+    background-color: #11ff00;
+    padding: 10px;
+
+}
+
+.a1 {
+
+    text-decoration: none;
 
 }

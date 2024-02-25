@@ -74,6 +74,7 @@ html,body {
 
 .icons {
 
+    cursor: pointer;
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 24px;
@@ -81,8 +82,30 @@ html,body {
 
 }
 
+.icons2 {
+
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: green;
+
+}
+
+.icons3 {
+
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: red;
+
+}
+
 .btn:hover {
 
+    -webkit-transform: rotate(6deg);
+    transform: rotate(6deg);
     background-color: var(--bg--primary);
     cursor: pointer;
     color: #2b00ff;
@@ -94,7 +117,6 @@ html,body {
 .btn {
 
     border: none;
-    text-decoration: none;
     background-color: #11ff00;
     padding: 10px;
 
